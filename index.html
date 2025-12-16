@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_954f8e5a8ac3183558e57597267b866e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_954f8e5a8ac3183558e57597267b866e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_954f8e5a8ac3183558e57597267b866e = L.map(
+                "map_954f8e5a8ac3183558e57597267b866e",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1f465a44c277b8391c01454d6828e1b9 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "\u00a9 CARTO",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1f465a44c277b8391c01454d6828e1b9.addTo(map_954f8e5a8ac3183558e57597267b866e);
+        
+    
+            var marker_0bc51d71269829569bc167606f7e3248 = L.marker(
+                [36.34788314265839, 138.59709892099988],
+                {
+}
+            ).addTo(map_954f8e5a8ac3183558e57597267b866e);
+        
+    
+            var div_icon_587b292735beaafe0b23e67c21982c48 = L.divIcon({
+  "html": "\n    \u003ca href=\"https://x.com/JRc_JapanRAUM/status/1999154749023899706?s=20\" target=\"_blank\" style=\"text-decoration:none;\"\u003e\n      \u003cdiv style=\"display:flex; align-items:center; gap:6px;\"\u003e\n        \u003cdiv style=\"width:8px;height:8px;border-radius:50%;background:#111;\"\u003e\u003c/div\u003e\n        \u003cdiv style=\"font-size:12px; color:#c40000; white-space:nowrap;\"\u003e\n          1. \u8efd\u4e95\u6ca2\u306e\u5c71\u8358(\u672a\u516c\u958b)\n        \u003c/div\u003e\n      \u003c/div\u003e\n    \u003c/a\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+                marker_0bc51d71269829569bc167606f7e3248.setIcon(div_icon_587b292735beaafe0b23e67c21982c48);
+            
+    
+            var marker_7d9f80b00c058e5aea3dca8ca009ab91 = L.marker(
+                [46.46841909989557, 6.829421309680071],
+                {
+}
+            ).addTo(map_954f8e5a8ac3183558e57597267b866e);
+        
+    
+            var div_icon_73d3de5dc282c95857cccf509b97d950 = L.divIcon({
+  "html": "\n    \u003ca href=\"https://x.com/JRc_JapanRAUM/status/1999885379214954591?s=20\" target=\"_blank\" style=\"text-decoration:none;\"\u003e\n      \u003cdiv style=\"display:flex; align-items:center; gap:6px;\"\u003e\n        \u003cdiv style=\"width:8px;height:8px;border-radius:50%;background:#111;\"\u003e\u003c/div\u003e\n        \u003cdiv style=\"font-size:12px; color:#c40000; white-space:nowrap;\"\u003e\n          2. Villa Le Lac\n        \u003c/div\u003e\n      \u003c/div\u003e\n    \u003c/a\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+                marker_7d9f80b00c058e5aea3dca8ca009ab91.setIcon(div_icon_73d3de5dc282c95857cccf509b97d950);
+            
+</script>
+</html>
